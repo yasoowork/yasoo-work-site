@@ -109,30 +109,6 @@ function App() {
           </div>
         </section>
 
-        <section id="contact" className="mb-28">
-          <SectionTitle title="Contact" />
-
-          <div className="flex flex-wrap gap-4">
-            <a
-              href="https://x.com/yasoo_fire"
-              target="_blank"
-              rel="noreferrer"
-              className="rounded-2xl border border-slate-800 bg-slate-900/20 px-6 py-4 text-sm transition hover:border-cyan-500 hover:text-cyan-400"
-            >
-              X DM
-            </a>
-
-            <a
-              href="https://github.com/yasoowork"
-              target="_blank"
-              rel="noreferrer"
-              className="rounded-2xl border border-slate-800 bg-slate-900/20 px-6 py-4 text-sm transition hover:border-cyan-500 hover:text-cyan-400"
-            >
-              GitHub
-            </a>
-          </div>
-        </section>
-
         <footer className="border-t border-slate-800 pt-8 text-sm text-slate-600">
           <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
             <p>© 2026 yasoo.work</p>
@@ -143,13 +119,6 @@ function App() {
                 className="transition hover:text-slate-300"
               >
                 Privacy Policy
-              </a>
-
-              <a
-                href="#contact"
-                className="transition hover:text-slate-300"
-              >
-                Contact
               </a>
             </div>
           </div>
