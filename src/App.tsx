@@ -135,18 +135,7 @@ function App() {
         </section>
 
         <footer className="border-t border-slate-800 pt-8 text-sm text-slate-600">
-          <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-            <p>© 2026 yasoo.work</p>
-
-            <div className="flex gap-6">
-              <a
-                href="#privacy-policy"
-                className="transition hover:text-slate-300"
-              >
-                Privacy Policy
-              </a>
-            </div>
-          </div>
+          <p>© 2026 yasoo.work</p>
         </footer>
       </div>
     </main>
