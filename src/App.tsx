@@ -7,6 +7,12 @@ function App() {
     ['X', 'https://x.com/yasoo_fire'],
   ]
 
+  const relatedLinks = [
+    ['Martial Arts', 'https://amzn.to/4ujjP6S'],
+    ['Supplements', 'https://amzn.to/4ubZgJI'],
+    ['PC & Accessories', 'https://amzn.to/42FIAhO'],
+  ]
+
   return (
     <main className="min-h-screen bg-slate-950 text-slate-200">
       <div className="mx-auto max-w-5xl px-6 py-16">
@@ -47,7 +53,7 @@ function App() {
               </p>
 
               <h3 className="mt-4 text-2xl font-semibold">
-                Schedule to ICS
+                JP Schedule to ICS
               </h3>
 
               <p className="mt-5 text-sm leading-8 text-slate-400">
@@ -93,6 +99,25 @@ function App() {
           </div>
         </section>
 
+
+        <section className="mb-28">
+          <SectionTitle title="Related" />
+
+          <div className="grid gap-4 md:grid-cols-3">
+            {relatedLinks.map(([label, href]) => (
+              <a
+                key={label}
+                href={href}
+                target="_blank"
+                rel="noreferrer sponsored"
+                className="rounded-2xl border border-slate-800 bg-slate-900/20 p-6 text-sm text-slate-400 transition hover:border-cyan-500 hover:text-cyan-400"
+              >
+                {label}
+              </a>
+            ))}
+          </div>
+        </section>
+
         <section id="privacy-policy" className="mb-28">
           <SectionTitle title="Privacy Policy" />
 
@@ -100,7 +125,7 @@ function App() {
             <p className="text-sm leading-9 text-slate-400">
               当サイトでは、アクセス解析のために Google Analytics を利用しています。
               <br />
-              また、今後 Google AdSense 等の広告サービスを利用する場合があります。
+              また、Google AdSense・Amazonアソシエイト等の広告サービスを利用しています。
               <br />
               Cookie により取得された情報は、サイト改善やアクセス解析の目的で利用されます。
               <br />
