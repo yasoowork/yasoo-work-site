@@ -3,6 +3,7 @@ import './App.css'
 function App() {
   const links = [
     ['GitHub', 'https://github.com/yasoowork'],
+    ['GitHub Sponsors', 'https://github.com/sponsors/yasoowork'],
     ['note', 'https://note.com/yasoo_fire'],
     ['X', 'https://x.com/yasoo_fire'],
   ]
@@ -65,6 +66,29 @@ function App() {
               </p>
             </a>
 
+            <a
+              href="https://mierulens.yasoo.work"
+              target="_blank"
+              rel="noreferrer"
+              className="group rounded-3xl border border-slate-800 bg-slate-900/30 p-8 transition hover:border-cyan-500"
+            >
+              <p className="text-xs tracking-[0.25em] text-cyan-400">
+                TOOL
+              </p>
+
+              <h3 className="mt-4 text-2xl font-semibold">
+                MieruLens
+              </h3>
+
+              <p className="mt-5 text-sm leading-8 text-slate-400">
+                スマホのカメラ映像をリアルタイムで補正し、輪郭や色の見やすさを補助するWebアプリ。
+              </p>
+
+              <p className="mt-8 text-sm text-slate-500 transition group-hover:text-cyan-400">
+                Open →
+              </p>
+            </a>
+
             <div className="rounded-3xl border border-slate-800 bg-slate-900/20 p-8">
               <p className="text-xs tracking-[0.25em] text-slate-500">
                 COMING SOON
@@ -84,7 +108,7 @@ function App() {
         <section className="mb-28">
           <SectionTitle title="Links" />
 
-          <div className="grid gap-4 md:grid-cols-3">
+          <div className="grid gap-4 md:grid-cols-4">
             {links.map(([label, href]) => (
               <a
                 key={label}
