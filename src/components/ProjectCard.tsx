@@ -27,14 +27,14 @@ export function ProjectCard({
         {description}
       </p>
 
-      <div className="mt-8 flex items-center gap-4">
+      <div className="mt-8 flex gap-3">
         <a
           href={url}
           target="_blank"
           rel="noreferrer"
-          className="text-sm text-slate-500 transition hover:text-cyan-400"
+          className="inline-flex rounded-2xl bg-white px-5 py-2 text-sm font-medium text-slate-900 transition hover:bg-slate-200"
         >
-          Open →
+          Open
         </a>
 
         {feedbackUrl && (
@@ -42,7 +42,7 @@ export function ProjectCard({
             href={feedbackUrl}
             target="_blank"
             rel="noreferrer"
-            className="text-sm text-slate-600 transition hover:text-cyan-400"
+            className="inline-flex rounded-2xl border border-slate-700 bg-slate-900 px-5 py-2 text-sm font-medium text-slate-200 transition hover:bg-slate-800"
           >
             Feedback
           </a>
