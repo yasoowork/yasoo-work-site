@@ -1,4 +1,5 @@
 import './App.css'
+import { ProjectCard } from "./components/ProjectCard"
 
 function App() {
   const links = [
@@ -43,121 +44,29 @@ function App() {
           <SectionTitle title="Projects" />
 
           <div className="grid gap-6 md:grid-cols-2">
-            <a
-              href="https://schedule.yasoo.work"
-              target="_blank"
-              rel="noreferrer"
-              className="group rounded-3xl border border-slate-800 bg-slate-900/30 p-8 transition hover:border-cyan-500"
-            >
-              <p className="text-xs tracking-[0.25em] text-cyan-400">
-                TOOL
-              </p>
+            <ProjectCard
+              label="TOOL"
+              title="JP Schedule to ICS"
+              description="スケジュールテキストをカレンダー用のICSファイルに変換するサービス。"
+              url="https://schedule.yasoo.work"
+              feedbackUrl="https://feedback.yasoo.work/submit?service=JP%20Schedule%20to%20ICS"
+            />
 
-              <h3 className="mt-4 text-2xl font-semibold">
-                JP Schedule to ICS
-              </h3>
+            <ProjectCard
+              label="TOOL"
+              title="MieruLens"
+              description="スマホのカメラ映像をリアルタイムで補正し、輪郭や色の見やすさを補助するWebアプリ。"
+              url="https://mierulens.yasoo.work"
+              feedbackUrl="https://feedback.yasoo.work/submit?service=MieruLens"
+            />
 
-              <p className="mt-5 text-sm leading-8 text-slate-400">
-                スケジュールテキストをカレンダー用のICSファイルに変換するサービス。
-              </p>
-
-              <div className="mt-8 flex items-center gap-4">
-                <p className="text-sm text-slate-500 transition group-hover:text-cyan-400">
-                  Open →
-                </p>
-
-                <span
-                  onClick={(e) => e.stopPropagation()}
-                >
-                  <a
-                    href="https://feedback.yasoo.work/submit?service=JP%20Schedule%20to%20ICS"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-sm text-slate-500 transition hover:text-cyan-400"
-                  >
-                    Feedback →
-                  </a>
-                </span>
-              </div>
-            </a>
-
-            <a
-              href="https://mierulens.yasoo.work"
-              target="_blank"
-              rel="noreferrer"
-              className="group rounded-3xl border border-slate-800 bg-slate-900/30 p-8 transition hover:border-cyan-500"
-            >
-              <p className="text-xs tracking-[0.25em] text-cyan-400">
-                TOOL
-              </p>
-
-              <h3 className="mt-4 text-2xl font-semibold">
-                MieruLens
-              </h3>
-
-              <p className="mt-5 text-sm leading-8 text-slate-400">
-                スマホのカメラ映像をリアルタイムで補正し、輪郭や色の見やすさを補助するWebアプリ。
-              </p>
-
-              <div className="mt-8 flex items-center gap-4">
-                <p className="text-sm text-slate-500 transition group-hover:text-cyan-400">
-                  Open →
-                </p>
-
-                <span
-                  onClick={(e) => e.stopPropagation()}
-                >
-                  <a
-                    href="https://feedback.yasoo.work/submit?service=MieruLens"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-sm text-slate-500 transition hover:text-cyan-400"
-                  >
-                    Feedback →
-                  </a>
-                </span>
-              </div>
-            </a>
-
-            <a
-              href="https://feedback.yasoo.work"
-              target="_blank"
-              rel="noreferrer"
-              className="group rounded-3xl border border-slate-800 bg-slate-900/30 p-8 transition hover:border-cyan-500"
-            >
-              <p className="text-xs tracking-[0.25em] text-cyan-400">
-                TOOL
-              </p>
-
-              <h3 className="mt-4 text-2xl font-semibold">
-                YW Feedback
-              </h3>
-
-              <p className="mt-5 text-sm leading-8 text-slate-400">
-                yasoo.work 系サービス向けの
-                フィードバック・不具合報告基盤。
-              </p>
-
-              <div className="mt-8 flex items-center gap-4">
-                <p className="text-sm text-slate-500 transition group-hover:text-cyan-400">
-                  Open →
-                </p>
-
-                <span
-                  onClick={(e) => e.stopPropagation()}
-                >
-                  <a
-                    href="https://feedback.yasoo.work/submit?service=YW%20Feedback"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-sm text-slate-500 transition hover:text-cyan-400"
-                  >
-                    Feedback →
-                  </a>
-                </span>
-              </div>
-            </a>
-
+            <ProjectCard
+              label="TOOL"
+              title="YW Feedback"
+              description="yasoo.work 系サービス向けのフィードバック・不具合報告基盤。"
+              url="https://feedback.yasoo.work"
+              feedbackUrl="https://feedback.yasoo.work/submit?service=YW%20Feedback"
+            />
 
             <div className="rounded-3xl border border-slate-800 bg-slate-900/20 p-8">
               <p className="text-xs tracking-[0.25em] text-slate-500">
