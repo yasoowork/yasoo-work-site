@@ -61,9 +61,24 @@ function App() {
                 スケジュールテキストをカレンダー用のICSファイルに変換するサービス。
               </p>
 
-              <p className="mt-8 text-sm text-slate-500 transition group-hover:text-cyan-400">
-                Open →
-              </p>
+              <div className="mt-8 flex items-center gap-4">
+                <p className="text-sm text-slate-500 transition group-hover:text-cyan-400">
+                  Open →
+                </p>
+
+                <span
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  <a
+                    href="https://feedback.yasoo.work/submit?service=JP%20Schedule%20to%20ICS"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-sm text-slate-500 transition hover:text-cyan-400"
+                  >
+                    Feedback →
+                  </a>
+                </span>
+              </div>
             </a>
 
             <a
@@ -84,10 +99,65 @@ function App() {
                 スマホのカメラ映像をリアルタイムで補正し、輪郭や色の見やすさを補助するWebアプリ。
               </p>
 
-              <p className="mt-8 text-sm text-slate-500 transition group-hover:text-cyan-400">
-                Open →
-              </p>
+              <div className="mt-8 flex items-center gap-4">
+                <p className="text-sm text-slate-500 transition group-hover:text-cyan-400">
+                  Open →
+                </p>
+
+                <span
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  <a
+                    href="https://feedback.yasoo.work/submit?service=MieruLens"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-sm text-slate-500 transition hover:text-cyan-400"
+                  >
+                    Feedback →
+                  </a>
+                </span>
+              </div>
             </a>
+
+            <a
+              href="https://feedback.yasoo.work"
+              target="_blank"
+              rel="noreferrer"
+              className="group rounded-3xl border border-slate-800 bg-slate-900/30 p-8 transition hover:border-cyan-500"
+            >
+              <p className="text-xs tracking-[0.25em] text-cyan-400">
+                TOOL
+              </p>
+
+              <h3 className="mt-4 text-2xl font-semibold">
+                YW Feedback
+              </h3>
+
+              <p className="mt-5 text-sm leading-8 text-slate-400">
+                yasoo.work 系サービス向けの
+                フィードバック・不具合報告基盤。
+              </p>
+
+              <div className="mt-8 flex items-center gap-4">
+                <p className="text-sm text-slate-500 transition group-hover:text-cyan-400">
+                  Open →
+                </p>
+
+                <span
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  <a
+                    href="https://feedback.yasoo.work/submit?service=YW%20Feedback"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-sm text-slate-500 transition hover:text-cyan-400"
+                  >
+                    Feedback →
+                  </a>
+                </span>
+              </div>
+            </a>
+
 
             <div className="rounded-3xl border border-slate-800 bg-slate-900/20 p-8">
               <p className="text-xs tracking-[0.25em] text-slate-500">
