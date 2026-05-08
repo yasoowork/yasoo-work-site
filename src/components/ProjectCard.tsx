@@ -14,7 +14,9 @@ export function ProjectCard({
   feedbackUrl,
 }: ProjectCardProps) {
   return (
-    <div className="group rounded-3xl border border-slate-800 bg-slate-900/30 p-8 transition hover:border-cyan-500">
+    <div className="group flex h-full flex-col rounded-3xl
+     border border-slate-800 bg-slate-900/30 p-8 transition 
+     hover:border-cyan-500">
       <p className="text-xs tracking-[0.25em] text-cyan-400">
         {label}
       </p>
@@ -23,7 +25,7 @@ export function ProjectCard({
         {title}
       </h3>
 
-      <p className="mt-5 text-sm leading-8 text-slate-400">
+      <p className="mt-5 flex-1 text-sm leading-8 text-slate-400">
         {description}
       </p>
 
