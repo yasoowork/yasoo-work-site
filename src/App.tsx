@@ -128,7 +128,7 @@ function App() {
             <p className="text-sm leading-9 text-slate-400">
               当サイトでは、アクセス解析のために Google Analytics を利用しています。
               <br />
-              また、Google AdSense・Amazonアソシエイト等の広告サービスを利用しています。
+              また、Amazonアソシエイト等の広告サービスを利用しています。
               <br />
               Cookie により取得された情報は、サイト改善やアクセス解析の目的で利用されます。
               <br />
