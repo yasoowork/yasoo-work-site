@@ -21,7 +21,7 @@ function App() {
         <header className="site-header">
           <a href="/" className="brand">
             <img
-              src="/hearth-mark.svg"
+              src="/hearthmark.svg"
               alt="Hearth Mark"
               className="brand-mark"
             />
