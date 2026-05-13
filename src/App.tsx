@@ -27,8 +27,12 @@ function App() {
             />
 
             <div className="brand-text">
-              <h1>yasoo.work</h1>
-              <p>Personal Projects / Notes</p>
+              <h1 className="text-2xl font-semibold tracking-wide">
+                yasoo.work
+              </h1>
+              <p className="mt-2 text-sm text-slate-500">
+                Personal Projects / Notes
+              </p>
             </div>
           </a>
         </header>
