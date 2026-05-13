@@ -25,7 +25,6 @@ function App() {
               alt="Hearth Mark"
               className="brand-mark"
             />
-
             <div className="brand-text">
               <h1 className="text-2xl font-semibold tracking-wide">
                 yasoo.work
