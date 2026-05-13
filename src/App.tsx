@@ -18,14 +18,19 @@ function App() {
   return (
     <main className="min-h-screen bg-slate-950 text-slate-200">
       <div className="mx-auto max-w-5xl px-6 py-16">
-        <header className="mb-24">
-          <h1 className="text-2xl font-semibold tracking-wide">
-            yasoo.work
-          </h1>
+        <header className="site-header">
+          <a href="/" className="brand">
+            <img
+              src="/hearth-mark.svg"
+              alt="Hearth Mark"
+              className="brand-mark"
+            />
 
-          <p className="mt-2 text-sm text-slate-500">
-            Personal Projects / Notes
-          </p>
+            <div className="brand-text">
+              <h1>yasoo.work</h1>
+              <p>Personal Projects / Notes</p>
+            </div>
+          </a>
         </header>
 
         <section className="mb-28">
@@ -67,20 +72,6 @@ function App() {
               url="https://feedback.yasoo.work"
               feedbackUrl="https://feedback.yasoo.work/submit?service=YW%20Feedback"
             />
-
-            <div className="rounded-3xl border border-slate-800 bg-slate-900/20 p-8">
-              <p className="text-xs tracking-[0.25em] text-slate-500">
-                COMING SOON
-              </p>
-
-              <h3 className="mt-4 text-2xl font-semibold">
-                SideFIRE Assist
-              </h3>
-
-              <p className="mt-5 text-sm leading-8 text-slate-500">
-                サイドFIRE運用を支援するOSSツール。準備中。
-              </p>
-            </div>
           </div>
         </section>
 
