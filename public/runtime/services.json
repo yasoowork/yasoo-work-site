@@ -70,5 +70,18 @@
     "status": "developing",
     "hosting": "",
     "tags": []
+  },
+  {
+    "id": "hearth-workspace",
+    "name": "hearth-workspace",
+    "description": "AI-native workspace for building and operating software ecosystems.",
+    "publicDescription": "AI-native workspace for building and operating software ecosystems.",
+    "projectType": "web-app",
+    "repo": "https://github.com/yasoowork/hearth-workspace",
+    "url": "https://hearth-workspace.yasoo.work",
+    "status": "developing",
+    "hosting": "",
+    "tags": [],
+    "feedbackEnabled": true
   }
 ]
