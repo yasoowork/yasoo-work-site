@@ -70,7 +70,7 @@ function App() {
 
             <ProjectCard
               label="TOOL"
-              title="YW Feedback"
+              title="Hearth Feedback"
               description="yasoo.work 系サービス向けのフィードバック・不具合報告基盤。"
               url="https://feedback.yasoo.work"
               feedbackUrl="https://feedback.yasoo.work/submit?service=YW%20Feedback"
